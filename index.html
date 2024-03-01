@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search-input" class="search-input" placeholder="Search movie you need...!">
+            <button class="btn" id="btn" onclick="invoke()">Submit</button>
+        </div>
+        <div class="movie-info">
+            <div class="text">
+                <h2 id="title" class="title">Title</h2>
+                <p>Directors : <span id="director"></span></p>
+                <p>Actors : <span id="actors"></span></p>
+                <p>Box Office Collection : <span id="coll"></span></p>
+                <p>Awards : <span id="awards"></span></p>
+                <p>Writer : <span id="writer"></span></p>
+                <p>IMDB Rating : <span id="Rating"></span></p>
+                <p>Genre : <span id="genre"></span></p>
+                <p>Plot :<span id="desc"></span></p>
+                <p>Runtime :<span id="runtime"></span></p>
+                <p>Released On : <span  class="date" id="date"></span></p>
+            </div>
+            <div class="img-container">
+                <img class="poster" id="poster" src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg" alt="">    
+            </div>
+        </div>
+    </div>
+    
+    <script src="./api.js"></script>
+</body>
+</html> 
