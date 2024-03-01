@@ -78,5 +78,75 @@ body{
     }
 }
 
+@media screen and (max-width: 799px){
+    .container{
+        width: 650px;
+        margin: 40px auto;
+    }
+    .search{
+        width: 100%;
+        display: flex;    /*1*/
+    }
+    .search-input{
+        width: 75%;
+        padding: 10px;
+        font-size: 17px;
+        color: green;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    .search-input:focus{
+        border: none;
+        outline: none;
+        background-color: #ffffff16;
+    }
+    .btn{
+        width: 25%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFFFFF;
+        background-color: rgba(220, 20, 60, 0.818);
+        cursor: pointer;
+    }
+    
 
+    .movie-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 690px;
+        margin: 40px 0 0 0;
+    }
+    .text{
+        order: 2;
+    }
+    
+    .text p{
+        color: #ffffffae;
+        font-weight: 700;
+    }
+    .img-container{
+        order: 1;
+        margin: 10px auto;
+    }
+    .poster{
+        height: 350px;
+        box-shadow: 5px 1px 10px grey;
+    }
+    
+    .title{
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 3.5px 3px 2px crimson;
+        font-weight: 700;
+        font-size: 32px;
+        margin: 2px 0 50px 0;
+    }
+    
+    .text span{
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+}
 
